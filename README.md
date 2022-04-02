@@ -1,24 +1,13 @@
-# README
+# SuperCal
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a rails app that will host and serve multiple calendars in ical and maybe json formats.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Setup
+Prerequisites:
+- have ruby and respect the `.ruby-version` however you prefer to do that
+- running local postgres
+- Install dependencies: `bundle install`
+- Set up databse: `bundle exec rake db:setup`
+- Run specs: `bundle exec rspec`
+- Run server on localhost:3000: `bundle exec rails s`
+- Run console: `bundle exec rails c`
